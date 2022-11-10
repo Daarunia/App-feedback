@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+	font-family: "Jost", sans-serif;
+    background-color: #f2f4ff;
+    display: flex;
+    width:60%;
+    margin-left: 20%;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+p{
+    font-size: 12px;
+    color:#647196;
+}
+
+a{
+    font-weight: bold;
+}
+
+.button{
+    font-family: "Jost", sans-serif;
+}
+
+/* menu */
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    border: none;
+    margin-left:auto;
+    color: white;
+    background-color:#ad1fea;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* header */
+
+.header{
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+}
+
+.like{
+    color: #3a4374;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: #f2f4ff;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-top:10px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    width: 5%;
+    height: 50px;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+}
+
+.comments p{
+    margin: 10px;
+}
+
+.subject{
+    margin-left: 50px;
+}
+
+.subject h2{
+    color:#3a4374;
+}
+
+.subject p{
+    color:#647196;
+}
+
+.tag{
+    border-radius: 10px;
+    border: none;
+    color:#4661e6;
+    padding: 5px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+    background-color: #f2f4ff;
+    margin-bottom: 20px;
+}
+
+.content{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.number{
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 18px
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 14px;
+    margin:0;
+    margin-top: 10px;
+}
+
+.username{
+    margin:0;
+}
+
+.typedResponse{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.typedResponse .button{
+    margin-left: 5px;
+}
+
+textarea{
+    resize: none;
+    width: 75%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+}
+
+.postOfPost{
+    display: flex;
+    flex-direction: column;
+}
+
+.separateur{
+    border-top: 0.5px solid rgb(179, 179, 179);
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.responseOfResponse{
+    display: flex;
+    flex-direction: column;
+}
+
+.ping{
+    color: #ad1fea;
+    font-weight: 700;
+}
+.response{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.end{
+    padding-left: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.addCommentTxt{
+    width: 90%;
+}
+
+.addComment{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding-bottom: 20px;
+}
